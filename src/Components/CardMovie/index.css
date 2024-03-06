@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.365);
+    height: fit-content;
+    padding: 20px;
+}
+
+.card > h3 {
+    margin: 0;
+}
