@@ -14,7 +14,7 @@ function FavMovie() {
                 method: 'GET',
                 headers: {
                   accept: 'application/json',
-                  Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYTIyZjRhNjE1MzBhZDliOWI5MmQ1YmE3OWNhYTY2ZiIsInN1YiI6IjY1MWQ1NWNhYzUwYWQyMDEwYjAwMTc3OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.UBWKkPsy8TZxLqtaWo__lHsB96cUVZp9d5tGwchPcq4'
+                  Authorization: 'YOUR API KEY'
                 }
               };
                 
