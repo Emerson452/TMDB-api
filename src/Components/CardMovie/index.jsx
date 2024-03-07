@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function CardMovie() {
-  const APIkey = "ba22f4a61530ad9b9b92d5ba79caa66f";
+  const APIkey = "YOUR API KEY";
   const [movies, setMovies] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [page, setPage] = useState(1);
@@ -31,14 +31,14 @@ function CardMovie() {
   };
 
   const handleFavorite = async (movieId, isFavorite) => {
-    const accountId = "20530043";
+    const accountId = "YOUR ACC ID";
     const url = `https://api.themoviedb.org/3/account/${accountId}/favorite`;
     const options = {
         method: 'POST',
         headers: {
           accept: 'application/json',
           'content-type': 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYTIyZjRhNjE1MzBhZDliOWI5MmQ1YmE3OWNhYTY2ZiIsInN1YiI6IjY1MWQ1NWNhYzUwYWQyMDEwYjAwMTc3OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.UBWKkPsy8TZxLqtaWo__lHsB96cUVZp9d5tGwchPcq4'
+          Authorization: 'YOUR API KEY'
         }
       };
 
