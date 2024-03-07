@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function FavMovie() {
-    const APIkey = "ba22f4a61530ad9b9b92d5ba79caa66f";
+    const APIkey = "YOUR API KEY";
     const account_id = "20530043";
     const [movies, setMovies] = useState([]);
 
